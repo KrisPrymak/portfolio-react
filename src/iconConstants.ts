@@ -1,0 +1,12 @@
+export const HTML = 'https://cdn-icons-png.flaticon.com/512/5968/5968267.png';
+export const CSS = 'https://cdn-icons-png.flaticon.com/512/888/888847.png';
+export const SASS = 'https://img.icons8.com/?size=512&id=QBqFNfPPB2Kx&format=png';
+export const BOOTSTRAP = 'https://img.icons8.com/?size=1x&id=84710&format=png';
+export const JS = 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png';
+export const TS = 'https://cdn-icons-png.flaticon.com/512/5968/5968381.png';
+export const REACT = 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png';
+export const REDUX = 'https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg';
+export const MUI = 'https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png';
+export const ANTD = 'https://static-00.iconduck.com/assets.00/ant-design-icon-512x512-ncocfg8e.png';
+export const GIT = 'https://img.icons8.com/?size=512&id=12599&format=png';
+export const LANG = 'https://img.icons8.com/?size=1x&id=31016&format=png';
