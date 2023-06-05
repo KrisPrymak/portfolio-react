@@ -8,8 +8,9 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <HashRouter>
-    <React.StrictMode>
+  <React.StrictMode>
+    <HashRouter>
       <App />
-    </React.StrictMode></HashRouter>
+    </HashRouter>
+  </React.StrictMode>
 );

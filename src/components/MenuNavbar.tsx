@@ -2,6 +2,7 @@ import * as React from 'react';
 import Sider from 'antd/es/layout/Sider';
 import { Avatar, Menu } from 'antd';
 import { useNavigate } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 const MenuNavbar = () => {
 
@@ -34,23 +35,14 @@ const MenuNavbar = () => {
     style={{height: '100vh', fontWeight: 900, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#000000'}}
       theme="dark"
       mode="inline"
-      defaultSelectedKeys={['4']}
     >
       {menuItems.map((item, index) => {
         return (
-          <Menu.Item key={String(index + 1)}>
-            <Avatar src={item.img} shape='square' style={{backgroundColor: '#ffffff', marginRight: 10}}/>
-            {item.label}
+          <Menu.Item  key={String(index + 1)}>
+            <NavLink to={item.path}><Avatar src={item.img} shape='square' style={{backgroundColor: '#ffffff', marginRight: 10}}/> {item.label}</NavLink>
           </Menu.Item>
         )
       })}
-      {/* items={menuItems.map(
-        (item, index) => ({
-          key: String(index + 1),
-          // icon: React.createElement(icon),
-          label: item.label,
-        }),
-      )} */}
     </Menu>
   </Sider>
   );
