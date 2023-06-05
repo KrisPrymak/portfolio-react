@@ -31,6 +31,7 @@ const MenuNavbar = () => {
     }}
   >
     <Menu
+    defaultSelectedKeys={['1']}
     onClick={(item) => {handleMenuClick(item.key)}}
     style={{height: '100vh', fontWeight: 900, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#000000'}}
       theme="dark"
@@ -38,7 +39,7 @@ const MenuNavbar = () => {
     >
       {menuItems.map((item, index) => {
         return (
-          <Menu.Item  key={String(index + 1)}>
+          <Menu.Item key={String(index + 1)}>
             <NavLink to={item.path}><Avatar src={item.img} shape='square' style={{backgroundColor: '#ffffff', marginRight: 10}}/> {item.label}</NavLink>
           </Menu.Item>
         )
