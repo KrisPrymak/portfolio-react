@@ -19,7 +19,7 @@ const Contacts = () => {
                     </a>
             </List.Item>
             <List.Item>
-                <a href="https://drive.google.com/file/d/18PTPA6554CHpRmfffuOt9ytSvH0ZegC0/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1AEHei5w3ElEtKunxrv0xQi30esebqLe2/view?usp=sharing"
                     target="_blank" rel="noreferrer">
                         <List.Item.Meta title='CV' avatar={<Avatar src='https://img.icons8.com/?size=512&id=104082&format=png'/>}>
                         </List.Item.Meta>
